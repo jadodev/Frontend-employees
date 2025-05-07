@@ -1,14 +1,55 @@
-# React + Vite
+# Employees FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Frontend Employees
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación frontend desarrollada con **React** y **Vite** para gestionar empleados. Permite listar, buscar y paginar empleados obtenidos desde una API REST. La interfaz es responsiva y utiliza componentes reutilizables para una experiencia de usuario fluida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para proyectos frontend.
+- **React Bootstrap**: Componentes estilizados para diseño responsivo.
+- **@tanstack/react-table**: Biblioteca para la creación de tablas dinámicas.
+- **Boring Avatars**: Generación de avatares personalizados.
+- **SASS**: Preprocesador CSS para estilos avanzados.
+- **ESLint**: Herramienta para mantener un código limpio y consistente.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Frontend-employees
-# Frontend-employees
+## Estructura del proyecto
+
+```plaintext
+front-employyes/
+├── .gitignore
+├── [eslint.config.js](http://_vscodecontentref_/0)
+├── [index.html](http://_vscodecontentref_/1)
+├── [package.json](http://_vscodecontentref_/2)
+├── [README.md](http://_vscodecontentref_/3)
+├── [vite.config.js](http://_vscodecontentref_/4)
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── [App.jsx](http://_vscodecontentref_/5)
+│   ├── [main.jsx](http://_vscodecontentref_/6)
+│   ├── components/
+│   │   ├── [EmptyState.jsx](http://_vscodecontentref_/7)
+│   │   ├── [MainContext.jsx](http://_vscodecontentref_/8)
+│   │   ├── [Pagination.jsx](http://_vscodecontentref_/9)
+│   │   ├── [SearchInput.jsx](http://_vscodecontentref_/10)
+│   │   ├── [Sidebar.jsx](http://_vscodecontentref_/11)
+│   │   ├── EmployeeTable/
+│   │   │   ├── [columns.jsx](http://_vscodecontentref_/12)
+│   │   │   ├── [EmployeeTable.jsx](http://_vscodecontentref_/13)
+│   │   │   ├── [TableBody.jsx](http://_vscodecontentref_/14)
+│   │   │   └── [TableHeader.jsx](http://_vscodecontentref_/15)
+│   │   └── TopBar/
+│   │       ├── [TopBar.jsx](http://_vscodecontentref_/16)
+│   │       └── [TopBar.module.css](http://_vscodecontentref_/17)
+│   ├── context/
+│   │   └── [EmployeeContext.jsx](http://_vscodecontentref_/18)
+│   ├── services/
+│   │   └── [employeeService.js](http://_vscodecontentref_/19)
+│   ├── styles/
+│   │   ├── [MainContext.module.css](http://_vscodecontentref_/20)
+│   │   ├── [Sidebar.module.css](http://_vscodecontentref_/21)
+│   │   └── [variables.scss](http://_vscodecontentref_/22)
+│   └── utils/
+│       └── [employeeUtils.js](http://_vscodecontentref_/23)
