@@ -17,39 +17,30 @@ Este proyecto es una aplicación frontend desarrollada con **React** y **Vite** 
 ## Estructura del proyecto
 
 ```plaintext
-front-employyes/
-├── .gitignore
-├── [eslint.config.js](http://_vscodecontentref_/0)
-├── [index.html](http://_vscodecontentref_/1)
-├── [package.json](http://_vscodecontentref_/2)
-├── [README.md](http://_vscodecontentref_/3)
-├── [vite.config.js](http://_vscodecontentref_/4)
-├── public/
-│   └── vite.svg
 ├── src/
-│   ├── [App.jsx](http://_vscodecontentref_/5)
-│   ├── [main.jsx](http://_vscodecontentref_/6)
+│   ├── [App.jsx]
+│   ├── [main.jsx]
 │   ├── components/
-│   │   ├── [EmptyState.jsx](http://_vscodecontentref_/7)
-│   │   ├── [MainContext.jsx](http://_vscodecontentref_/8)
-│   │   ├── [Pagination.jsx](http://_vscodecontentref_/9)
-│   │   ├── [SearchInput.jsx](http://_vscodecontentref_/10)
-│   │   ├── [Sidebar.jsx](http://_vscodecontentref_/11)
+│   │   ├── [EmptyState.jsx]
+│   │   ├── [MainContext.jsx]
+│   │   ├── [Pagination.jsx]
+│   │   ├── [SearchInput.jsx]
+│   │   ├── [Sidebar.jsx]
 │   │   ├── EmployeeTable/
-│   │   │   ├── [columns.jsx](http://_vscodecontentref_/12)
-│   │   │   ├── [EmployeeTable.jsx](http://_vscodecontentref_/13)
-│   │   │   ├── [TableBody.jsx](http://_vscodecontentref_/14)
-│   │   │   └── [TableHeader.jsx](http://_vscodecontentref_/15)
+│   │   │   ├── [columns.jsx]
+│   │   │   ├── [EmployeeTable.jsx]
+│   │   │   ├── [TableBody.jsx]
+│   │   │   └── [TableHeader.jsx]
 │   │   └── TopBar/
-│   │       ├── [TopBar.jsx](http://_vscodecontentref_/16)
-│   │       └── [TopBar.module.css](http://_vscodecontentref_/17)
+│   │       ├── [TopBar.jsx]
+│   │       └── [TopBar.module.css]
 │   ├── context/
-│   │   └── [EmployeeContext.jsx](http://_vscodecontentref_/18)
+│   │   └── [EmployeeContext.jsx]
 │   ├── services/
-│   │   └── [employeeService.js](http://_vscodecontentref_/19)
+│   │   └── [employeeService.js]
 │   ├── styles/
-│   │   ├── [MainContext.module.css](http://_vscodecontentref_/20)
-│   │   ├── [Sidebar.module.css](http://_vscodecontentref_/21)
-│   │   └── [variables.scss](http://_vscodecontentref_/22)
+│   │   ├── [MainContext.module.css]
+│   │   ├── [Sidebar.module.css]
+│   │   └── [variables.scss]
 │   └── utils/
-│       └── [employeeUtils.js](http://_vscodecontentref_/23)
+│       └── [employeeUtils.js]
