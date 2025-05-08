@@ -29,7 +29,7 @@ export const SearchInput = () => {
         className="btn btn-outline-secondary"
         onClick={handleSearch}
         aria-label="Buscar"
-      >
+      > Buscar
         <i className="bi bi-search" aria-hidden="true"></i>
       </button>
       {error && <div className="invalid-feedback">{error}</div>}
