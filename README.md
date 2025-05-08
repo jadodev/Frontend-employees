@@ -1,5 +1,3 @@
-# Employees FrontEnd
-
 # Frontend Employees
 
 Este proyecto es una aplicación frontend desarrollada con **React** y **Vite** para gestionar empleados. Permite listar, buscar y paginar empleados obtenidos desde una API REST. La interfaz es responsiva y utiliza componentes reutilizables para una experiencia de usuario fluida.
